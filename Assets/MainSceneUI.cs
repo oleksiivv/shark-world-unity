@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Advertisements;
 
+[RequireComponent(typeof(InterstitialVideo))]
 public class MainSceneUI : MonoBehaviour
 {
     public SharkUI[] sharkUI;
@@ -19,9 +20,14 @@ public class MainSceneUI : MonoBehaviour
 
     public AdmobController admob;
 
+    private InterstitialVideo unityAdsInterstitial;
+
     void Start(){
         Advertisement.Initialize(gameID, false);
         admob.init();
+
+        unityAdsInterstitial = GetComponent<InterstitialVideo>();
+        unityAdsInterstitial.LoadAd();
     }
 
     void Update(){
@@ -37,12 +43,8 @@ public class MainSceneUI : MonoBehaviour
 
         if(addCnt%2==0){
             if(!admob.showIntersitionalAd()){
-                if(Advertisement.IsReady("Interstitial_Android")){
-                    Advertisement.Show("Interstitial_Android");
-                }
-                else{
-                    admob.showIntersitionalAd();
-                }
+                //Advertisement.Show("Interstitial_Android");
+                unityAdsInterstitial.ShowAd();
             }
         }
         addCnt++;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
+[RequireComponent(typeof(InterstitialVideo))]
 public class SharkUI : MonoBehaviour
 {
     public GameObject pausePanel, deathPanel;
@@ -13,10 +14,15 @@ public class SharkUI : MonoBehaviour
 #endif
     public AdmobController admob;
 
+    private InterstitialVideo unityAdsInterstitial;
+
     void Start(){
         Advertisement.Initialize(gameID, false);
 
         admob.init();
+
+        unityAdsInterstitial = GetComponent<InterstitialVideo>();
+        unityAdsInterstitial.LoadAd();
     }
 
     public void showDeathPanel(){
@@ -42,12 +48,8 @@ public class SharkUI : MonoBehaviour
 
         if(MainSceneUI.addCnt%2==0){
             if(!admob.showIntersitionalAd()){
-                if(Advertisement.IsReady("Interstitial_Android")){
-                    Advertisement.Show("Interstitial_Android");
-                }
-                else{
-                    admob.showIntersitionalAd();
-                }
+                //Advertisement.Show("Interstitial_Android");
+                unityAdsInterstitial.ShowAd();
             }
         }
         MainSceneUI.addCnt++;
