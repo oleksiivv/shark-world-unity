@@ -129,7 +129,7 @@ TextureImporter:
       213: 5395153220403263752
     second: animales2_41
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -146,9 +146,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -180,10 +183,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -195,6 +203,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -207,6 +216,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -219,6 +229,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1116,9 +1153,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      animales2_0: 8205067085304365936
+      animales2_1: 2588967574001853807
+      animales2_10: 4389005402796566939
+      animales2_11: -6236359506695921808
+      animales2_12: -1066046879365608229
+      animales2_13: 5833168972965532920
+      animales2_14: -8504835615463394743
+      animales2_15: 1703694023868727813
+      animales2_16: -3736304860246632552
+      animales2_17: 5008261730920712005
+      animales2_18: 1356906006680010243
+      animales2_19: -23054722862064370
+      animales2_2: 350408603458165302
+      animales2_20: 692943845431120163
+      animales2_21: 5149401818354312936
+      animales2_22: 5296043990342853053
+      animales2_23: 1625112740606019863
+      animales2_24: 1578601469713080373
+      animales2_25: -5220121200617282665
+      animales2_26: -5814397872549932009
+      animales2_27: -333637160354439409
+      animales2_28: 9161745511988947639
+      animales2_29: -5418628546710143875
+      animales2_3: 5704996688159217054
+      animales2_30: -7078630644817010183
+      animales2_31: 7841842923647604573
+      animales2_32: -4141621975745906697
+      animales2_33: -4957005386239867464
+      animales2_34: -8721674922459113637
+      animales2_35: 3432186835313621265
+      animales2_36: -4299203025073129067
+      animales2_37: 5071260086939782719
+      animales2_38: -1271772233581056666
+      animales2_39: 1746102644690234459
+      animales2_4: 88467122110478717
+      animales2_40: -8514504049785812456
+      animales2_41: 5395153220403263752
+      animales2_5: -3535960286163169345
+      animales2_6: -6735052393840372136
+      animales2_7: 7395209034403932429
+      animales2_8: 5044947574578726919
+      animales2_9: -7550582303124084224
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

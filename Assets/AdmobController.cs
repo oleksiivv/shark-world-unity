@@ -70,6 +70,9 @@ public class AdmobController : MonoBehaviour
                             + ad.GetResponseInfo());
 
                 _interstitialAd = ad;
+                
+                RegisterEventHandlers(_interstitialAd);
+                RegisterReloadHandler(_interstitialAd);
             });
     }
 
@@ -85,5 +88,59 @@ public class AdmobController : MonoBehaviour
         {
             return false;
         }
+      }
+
+      private void RegisterEventHandlers(InterstitialAd interstitialAd)
+      {
+          interstitialAd.OnAdPaid += (AdValue adValue) =>
+          {
+              Debug.Log(String.Format("Interstitial ad paid {0} {1}.",
+                  adValue.Value,
+                  adValue.CurrencyCode));
+          };
+
+          interstitialAd.OnAdImpressionRecorded += () =>
+          {
+              Debug.Log("Interstitial ad recorded an impression.");
+          };
+
+          interstitialAd.OnAdClicked += () =>
+          {
+              Debug.Log("Interstitial ad was clicked.");
+          };
+
+          interstitialAd.OnAdFullScreenContentOpened += () =>
+          {
+              Debug.Log("Interstitial ad full screen content opened.");
+          };
+
+          interstitialAd.OnAdFullScreenContentClosed += () =>
+          {
+              Debug.Log("Interstitial ad full screen content closed.");
+          };
+
+          interstitialAd.OnAdFullScreenContentFailed += (AdError error) =>
+          {
+              Debug.LogError("Interstitial ad failed to open full screen content " +
+                          "with error : " + error);
+          };
+      }
+
+      private void RegisterReloadHandler(InterstitialAd interstitialAd)
+      {
+          interstitialAd.OnAdFullScreenContentClosed += () =>
+          {
+              Debug.Log("Interstitial Ad full screen content closed.");
+
+              LoadLoadInterstitialAd();
+          };
+
+          interstitialAd.OnAdFullScreenContentFailed += (AdError error) =>
+          {
+              Debug.LogError("Interstitial ad failed to open full screen content " +
+                          "with error : " + error);
+
+              LoadLoadInterstitialAd();
+          };
       }
 }

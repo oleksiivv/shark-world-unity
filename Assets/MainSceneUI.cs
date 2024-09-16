@@ -26,6 +26,11 @@ public class MainSceneUI : MonoBehaviour
         Advertisement.Initialize(gameID, false);
         admob.init();
 
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 60;
+
+        Time.timeScale=1;
+
         unityAdsInterstitial = GetComponent<InterstitialVideo>();
         unityAdsInterstitial.LoadAd();
     }

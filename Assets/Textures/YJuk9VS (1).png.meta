@@ -291,7 +291,7 @@ TextureImporter:
       213: 3924738743176626855
     second: YJuk9VS (1)_95
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -308,9 +308,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -342,10 +345,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -357,6 +365,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -369,6 +378,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -381,6 +391,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2412,9 +2449,105 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      YJuk9VS (1)_0: -4273334987727069752
+      YJuk9VS (1)_1: 7275562126307887343
+      YJuk9VS (1)_10: 95577931394679069
+      YJuk9VS (1)_11: 8088622274155252471
+      YJuk9VS (1)_12: -9217225600525776068
+      YJuk9VS (1)_13: 2880598888958104246
+      YJuk9VS (1)_14: -8883485991383781013
+      YJuk9VS (1)_15: 9211622723718439383
+      YJuk9VS (1)_16: -222635996220615584
+      YJuk9VS (1)_17: 2463721720035703527
+      YJuk9VS (1)_18: 8775029562518088206
+      YJuk9VS (1)_19: 5672494384470943168
+      YJuk9VS (1)_2: 6892606744472742133
+      YJuk9VS (1)_20: 8062200087915672226
+      YJuk9VS (1)_21: -4810106782515890674
+      YJuk9VS (1)_22: 5579929630156906718
+      YJuk9VS (1)_23: -2741726931564371130
+      YJuk9VS (1)_24: 1919856612728500621
+      YJuk9VS (1)_25: 4190723396441065451
+      YJuk9VS (1)_26: 4281257463103752460
+      YJuk9VS (1)_27: -8280887677093596725
+      YJuk9VS (1)_28: -8807012020310592276
+      YJuk9VS (1)_29: -4350474528697816639
+      YJuk9VS (1)_3: -6945587265509023156
+      YJuk9VS (1)_30: 6644110265969704409
+      YJuk9VS (1)_31: -7268163215914741484
+      YJuk9VS (1)_32: 4678381068137521971
+      YJuk9VS (1)_33: 3084807045264906789
+      YJuk9VS (1)_34: -8412059092960333988
+      YJuk9VS (1)_35: 1621171127909232105
+      YJuk9VS (1)_36: -3657261131822580497
+      YJuk9VS (1)_37: 3436737810699079733
+      YJuk9VS (1)_38: 7703251503425934483
+      YJuk9VS (1)_39: -8527145345706101333
+      YJuk9VS (1)_4: 2144675182621875738
+      YJuk9VS (1)_40: 3637269904763093107
+      YJuk9VS (1)_41: 1153192493376946162
+      YJuk9VS (1)_42: 2763941237031970200
+      YJuk9VS (1)_43: 4254512284337770151
+      YJuk9VS (1)_44: 3251379950018641466
+      YJuk9VS (1)_45: -2639044288316469759
+      YJuk9VS (1)_46: 7255052273504455116
+      YJuk9VS (1)_47: 6348296358473267991
+      YJuk9VS (1)_48: 1661929553444600514
+      YJuk9VS (1)_49: 2860699698861744329
+      YJuk9VS (1)_5: -8791247132253135496
+      YJuk9VS (1)_50: -3979751460712651997
+      YJuk9VS (1)_51: -507586068640853463
+      YJuk9VS (1)_52: -4288935701720535385
+      YJuk9VS (1)_53: 4772975274418909117
+      YJuk9VS (1)_54: 7772275453045998923
+      YJuk9VS (1)_55: 1028568325489059763
+      YJuk9VS (1)_56: 6259868130980594401
+      YJuk9VS (1)_57: -3371526146501801701
+      YJuk9VS (1)_58: 5020900366845904805
+      YJuk9VS (1)_59: 1246741492448276631
+      YJuk9VS (1)_6: 5108543223557797647
+      YJuk9VS (1)_60: -6050142157183485604
+      YJuk9VS (1)_61: 1220433477908024048
+      YJuk9VS (1)_62: 7641212304028862453
+      YJuk9VS (1)_63: 6278813951847529871
+      YJuk9VS (1)_64: 5449695665631927433
+      YJuk9VS (1)_65: -8566804948156566115
+      YJuk9VS (1)_66: -8598646680855393198
+      YJuk9VS (1)_67: 1575639004085376678
+      YJuk9VS (1)_68: 6691174338241537327
+      YJuk9VS (1)_69: 1496353850139893945
+      YJuk9VS (1)_7: 2847065668821286608
+      YJuk9VS (1)_70: -5041732396549690686
+      YJuk9VS (1)_71: 2794931550374744565
+      YJuk9VS (1)_72: -9098743657580665417
+      YJuk9VS (1)_73: -4145924845835276909
+      YJuk9VS (1)_74: -8801442761016486171
+      YJuk9VS (1)_75: 443252317492598909
+      YJuk9VS (1)_76: -4268565434925801036
+      YJuk9VS (1)_77: -6036284023734703894
+      YJuk9VS (1)_78: 3712377202737580234
+      YJuk9VS (1)_79: -4602336381887213622
+      YJuk9VS (1)_8: -7784241676408683662
+      YJuk9VS (1)_80: -4583790102034224336
+      YJuk9VS (1)_81: -7254875917181049157
+      YJuk9VS (1)_82: 7484748863753346487
+      YJuk9VS (1)_83: -1222361085225044696
+      YJuk9VS (1)_84: 7671422703864896292
+      YJuk9VS (1)_85: 8569980907242721466
+      YJuk9VS (1)_86: 2667427264532076785
+      YJuk9VS (1)_87: 4330948327407641708
+      YJuk9VS (1)_88: 324109291574652034
+      YJuk9VS (1)_89: 4862350161255716240
+      YJuk9VS (1)_9: -9139037829224714093
+      YJuk9VS (1)_90: -7493058586801994543
+      YJuk9VS (1)_91: -3592054365221913093
+      YJuk9VS (1)_92: -7299302980247394865
+      YJuk9VS (1)_93: -7956665675119372208
+      YJuk9VS (1)_94: -8022209504040312132
+      YJuk9VS (1)_95: 3924738743176626855
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

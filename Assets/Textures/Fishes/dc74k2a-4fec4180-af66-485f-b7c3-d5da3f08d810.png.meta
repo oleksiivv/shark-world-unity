@@ -279,7 +279,7 @@ TextureImporter:
       213: 3652332761279973440
     second: dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_91
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -296,9 +296,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -330,10 +333,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -345,6 +353,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -357,6 +366,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -369,6 +379,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2316,9 +2353,101 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_0: -2908147705569502122
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_1: -2602789537626898906
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_10: -5370376281544576655
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_11: -2012454945696913088
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_12: 1204738677020121172
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_13: -111282370346481264
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_14: 3863300180550596019
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_15: 8401571230692079508
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_16: 1747958049687918804
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_17: -4156585342646885168
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_18: 7779749708490193942
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_19: -8824009464539729370
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_2: 2690953408191822305
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_20: 5177438841253852843
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_21: -4418381991545633724
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_22: 4365512556620430558
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_23: -1011307667917120160
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_24: -7697151892061266744
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_25: -5223959617604129983
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_26: -8688233530032355174
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_27: 818146240809746578
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_28: -4617839259598844625
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_29: -3537252609126651667
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_3: 3837828483018957223
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_30: -337607335049281342
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_31: -1481773441579849683
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_32: 2760241770934516833
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_33: -4136642516510644682
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_34: 9036293487855296626
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_35: -3751661538243281743
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_36: -4711438878484260073
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_37: -1099108564467807267
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_38: 5597084412450088018
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_39: 7613705966474376159
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_4: -8945282567561194059
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_40: -6825619184455503021
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_41: 5128273225426136254
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_42: -3685319482548931604
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_43: -6999969304986256373
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_44: 7250303008978935020
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_45: 1851350251079411144
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_46: -8089326593088956539
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_47: 8248211335827110517
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_48: -3670495336387500815
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_49: 2221056116393318811
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_5: 3861107197271545332
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_50: -3264525199755235370
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_51: 446569777228892300
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_52: -118550975400337545
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_53: -597008000011437192
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_54: 4844943084632540506
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_55: 6349846173409793593
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_56: -8942138474001037075
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_57: 5341743516869853255
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_58: 2647749477077190621
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_59: -4415319092055090948
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_6: 6087763490128283204
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_60: 9002489572586125570
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_61: -988538708724776884
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_62: 4647533303581408705
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_63: 5591102698991996556
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_64: -27849155205915201
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_65: -7472774893894149393
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_66: -4088975217148252148
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_67: 4175715971659277718
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_68: -7165673437707717959
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_69: 3417614744634639167
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_7: -2683011157166634375
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_70: 4321890055760141183
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_71: -1215149684202312028
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_72: -2062656171833555068
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_73: -1841119456538292696
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_74: 2019586968505732424
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_75: 6652961684537078453
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_76: -6110923542630133797
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_77: -8309466098669076028
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_78: -7003561828924284521
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_79: 4119757059986591910
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_8: 5809425271939160367
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_80: 5326217822627521267
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_81: -8255206622670663515
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_82: 5127015288662948405
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_83: -8812209625538247719
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_84: -151527528999879249
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_85: 7306612262897920607
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_86: 7999002006887995078
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_87: -4658545308429520432
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_88: -120226781953155528
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_89: 5238731160844637232
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_9: 8011313387737183702
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_90: 7014697173884148082
+      dc74k2a-4fec4180-af66-485f-b7c3-d5da3f08d810_91: 3652332761279973440
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

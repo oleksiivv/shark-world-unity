@@ -291,7 +291,7 @@ TextureImporter:
       213: 5408945039330091432
     second: k5E7sRO (1)_95
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -308,9 +308,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -342,10 +345,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -357,6 +365,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -369,6 +378,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -381,6 +391,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2412,9 +2449,105 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      k5E7sRO (1)_0: -2702331570468490751
+      k5E7sRO (1)_1: -3013740328756435770
+      k5E7sRO (1)_10: 793144077838734040
+      k5E7sRO (1)_11: -7158276851185669397
+      k5E7sRO (1)_12: 7963619439741268448
+      k5E7sRO (1)_13: -2588604705277525340
+      k5E7sRO (1)_14: -1885440220217122554
+      k5E7sRO (1)_15: -4993341127998624044
+      k5E7sRO (1)_16: -5985574124531679906
+      k5E7sRO (1)_17: -6070299317026403339
+      k5E7sRO (1)_18: 1695997379240782613
+      k5E7sRO (1)_19: 6036724200064947387
+      k5E7sRO (1)_2: 8152125610368982632
+      k5E7sRO (1)_20: 3004432013424465059
+      k5E7sRO (1)_21: 4956448111499575160
+      k5E7sRO (1)_22: 4210129431508271911
+      k5E7sRO (1)_23: 4538984920351627716
+      k5E7sRO (1)_24: 4257186802889887550
+      k5E7sRO (1)_25: -5850671340946344402
+      k5E7sRO (1)_26: 8643244067547282589
+      k5E7sRO (1)_27: 7236862009871243431
+      k5E7sRO (1)_28: -1812640293857587647
+      k5E7sRO (1)_29: 4033069508353607474
+      k5E7sRO (1)_3: -6299273118850667799
+      k5E7sRO (1)_30: 3707763735286655862
+      k5E7sRO (1)_31: -4767562871159095178
+      k5E7sRO (1)_32: 3485971481252214547
+      k5E7sRO (1)_33: 7693526507226388585
+      k5E7sRO (1)_34: -2564354968986159072
+      k5E7sRO (1)_35: 6271285862680112418
+      k5E7sRO (1)_36: -1421341934785205276
+      k5E7sRO (1)_37: -3775839139865374805
+      k5E7sRO (1)_38: 4018136719815862630
+      k5E7sRO (1)_39: -5556601706636253420
+      k5E7sRO (1)_4: 1531418736772515078
+      k5E7sRO (1)_40: -2905350596612783847
+      k5E7sRO (1)_41: -4434144161430623929
+      k5E7sRO (1)_42: 2313207250426639146
+      k5E7sRO (1)_43: -605525521301247813
+      k5E7sRO (1)_44: -5287821355331777791
+      k5E7sRO (1)_45: -3426128957536296263
+      k5E7sRO (1)_46: -7375215251823648470
+      k5E7sRO (1)_47: 9200153577693372630
+      k5E7sRO (1)_48: -8638417338967271594
+      k5E7sRO (1)_49: 533218992459316489
+      k5E7sRO (1)_5: 609886643700727452
+      k5E7sRO (1)_50: -7669241929201236184
+      k5E7sRO (1)_51: -8012927058304040531
+      k5E7sRO (1)_52: 2470855328746862685
+      k5E7sRO (1)_53: 8280832579252929272
+      k5E7sRO (1)_54: 5611358842162613478
+      k5E7sRO (1)_55: -7565181131398167969
+      k5E7sRO (1)_56: 4148116478972019841
+      k5E7sRO (1)_57: 3981320878991359656
+      k5E7sRO (1)_58: -509894795252003206
+      k5E7sRO (1)_59: 6260841813162895758
+      k5E7sRO (1)_6: 1202374866232358332
+      k5E7sRO (1)_60: 1691946769056301685
+      k5E7sRO (1)_61: 5341363067247796455
+      k5E7sRO (1)_62: 2027373455775009948
+      k5E7sRO (1)_63: 8128683293279562269
+      k5E7sRO (1)_64: 7642155440402388904
+      k5E7sRO (1)_65: 4776275880807481000
+      k5E7sRO (1)_66: -9131132735978963181
+      k5E7sRO (1)_67: 7311869132153296877
+      k5E7sRO (1)_68: 2976147434859462117
+      k5E7sRO (1)_69: 4135741374070764161
+      k5E7sRO (1)_7: -4987468312458694669
+      k5E7sRO (1)_70: 2758601611034925132
+      k5E7sRO (1)_71: 7760233408468576599
+      k5E7sRO (1)_72: -7778948573262854242
+      k5E7sRO (1)_73: 1212286450939439957
+      k5E7sRO (1)_74: 3467592805972707917
+      k5E7sRO (1)_75: 7459667020886146571
+      k5E7sRO (1)_76: -6009975291812994826
+      k5E7sRO (1)_77: 6642931804553733825
+      k5E7sRO (1)_78: 649159968217033497
+      k5E7sRO (1)_79: -2878298605992805400
+      k5E7sRO (1)_8: -5573571995602484812
+      k5E7sRO (1)_80: 1379072513414852712
+      k5E7sRO (1)_81: -871919669108127496
+      k5E7sRO (1)_82: 7006711943227001983
+      k5E7sRO (1)_83: -8255052286801067153
+      k5E7sRO (1)_84: 7228297657491112502
+      k5E7sRO (1)_85: 6495669044181657944
+      k5E7sRO (1)_86: -3397948706512023348
+      k5E7sRO (1)_87: 2338647306582107354
+      k5E7sRO (1)_88: 7603710042927041411
+      k5E7sRO (1)_89: 7581909758580196194
+      k5E7sRO (1)_9: 3603860308073320533
+      k5E7sRO (1)_90: -744292248871467554
+      k5E7sRO (1)_91: 5843923912074603314
+      k5E7sRO (1)_92: -6773563572859307285
+      k5E7sRO (1)_93: 6355950080231705851
+      k5E7sRO (1)_94: -3389307749580862980
+      k5E7sRO (1)_95: 5408945039330091432
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
