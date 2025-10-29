@@ -16,7 +16,7 @@ public class MainSceneUI : MonoBehaviour
     private string gameID="4250867";
 #endif
 
-    public static int addCnt=1;
+    public static int addCnt=0;
 
     public AdmobController admob;
 

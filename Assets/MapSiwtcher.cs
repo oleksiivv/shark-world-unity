@@ -19,7 +19,7 @@ public class MapSiwtcher : MonoBehaviour
 
 
     void Start(){
-        //PlayerPrefs.SetInt("hi",800);
+        PlayerPrefs.SetInt("hi",80000);
 
         int n=PlayerPrefs.GetInt("hi");
         for(int i=requiredHI.Length-1;i>=0;i--){

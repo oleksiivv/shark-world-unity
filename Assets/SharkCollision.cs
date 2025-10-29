@@ -32,7 +32,7 @@ public class SharkCollision : MonoBehaviour
         }
         if(other.gameObject.tag=="heart"){
             fx.playGetHeart();
-            health.heal(5*StarX2.x);
+            health.heal(5*StarX2.x * 2);
             audio.playItemGet();
 
             Destroy(other.gameObject);
